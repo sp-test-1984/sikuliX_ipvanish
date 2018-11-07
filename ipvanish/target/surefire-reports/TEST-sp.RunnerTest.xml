@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="35" failures="0" name="sp.RunnerTest" time="35.986" errors="0" skipped="15">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/juanhernandez/Desktop/sikuliX_ipvanish/ipvanish"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/juanhernandez/Desktop/sikuliX_ipvanish/ipvanish"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/x1/2k_5c0g54hdclvl1ztljptxr0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/juanhernandez/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.4/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/juanhernandez"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="juanhernandez"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="| ikev2 |" name="Given IPVanish is accessible" time="0.002"/>
+  <testcase classname="| ikev2 |" name="And I am logged" time="0"/>
+  <testcase classname="| ikev2 |" name="When I select &quot;ikev2&quot;" time="0"/>
+  <testcase classname="| ikev2 |" name="And attempt connection" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="| ikev2 |" name="Then I should successfully connect" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="| ikev2 |" name="| ikev2 |" time="3.548">
+    <skipped/>
+    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (597 msec)
+[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (610 msec)
+[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (598 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| ikev2 |" name="| ikev2 |" time="3.548"/>
+  <testcase classname="| tcp |" name="Given IPVanish is accessible" time="0"/>
+  <testcase classname="| tcp |" name="And I am logged" time="0"/>
+  <testcase classname="| tcp |" name="When I select &quot;tcp&quot;" time="0"/>
+  <testcase classname="| tcp |" name="And attempt connection" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| tcp |" name="Then I should successfully connect" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| tcp |" name="| tcp |" time="3.503">
+    <skipped/>
+    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (598 msec)
+[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (598 msec)
+[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (600 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| tcp |" name="| tcp |" time="3.503"/>
+  <testcase classname="| ipsec |" name="Given IPVanish is accessible" time="0"/>
+  <testcase classname="| ipsec |" name="And I am logged" time="0"/>
+  <testcase classname="| ipsec |" name="When I select &quot;ipsec&quot;" time="0"/>
+  <testcase classname="| ipsec |" name="And attempt connection" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| ipsec |" name="Then I should successfully connect" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| ipsec |" name="| ipsec |" time="3.94">
+    <skipped/>
+    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (594 msec)
+[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (594 msec)
+[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (590 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| ipsec |" name="| ipsec |" time="3.94"/>
+  <testcase classname="| l2tp |" name="Given IPVanish is accessible" time="0"/>
+  <testcase classname="| l2tp |" name="And I am logged" time="0"/>
+  <testcase classname="| l2tp |" name="When I select &quot;l2tp&quot;" time="0"/>
+  <testcase classname="| l2tp |" name="And attempt connection" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| l2tp |" name="Then I should successfully connect" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| l2tp |" name="| l2tp |" time="3.493">
+    <skipped/>
+    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (594 msec)
+[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (606 msec)
+[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (598 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| l2tp |" name="| l2tp |" time="3.493"/>
+  <testcase classname="| udp |" name="Given IPVanish is accessible" time="0"/>
+  <testcase classname="| udp |" name="And I am logged" time="0"/>
+  <testcase classname="| udp |" name="When I select &quot;udp&quot;" time="0"/>
+  <testcase classname="| udp |" name="And attempt connection" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| udp |" name="Then I should successfully connect" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| udp |" name="| udp |" time="3.5">
+    <skipped/>
+    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (596 msec)
+[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (593 msec)
+[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (592 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| udp |" name="| udp |" time="3.5"/>
+</testsuite>
