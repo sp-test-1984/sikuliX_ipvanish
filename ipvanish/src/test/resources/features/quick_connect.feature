@@ -10,7 +10,7 @@ Feature: quick connect
  Examples: protocol permutations
     | protocol |
     | ikev2    |
-    | tcp      |
-    | ipsec    |
-    | l2tp     |
-    | udp      |
+    #| tcp      |
+    #| ipsec    |
+    #| l2tp     |
+    #| udp      |

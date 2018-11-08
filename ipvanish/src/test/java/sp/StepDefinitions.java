@@ -66,6 +66,12 @@ public class StepDefinitions {
         CONFIGURATION.getScreen().click(Images.QUICKCONNECT);
         CONFIGURATION.getScreen().click(Images.CONNECT);
         takeANap();
+        CONFIGURATION.getScreen().click(Images.ALLOW);
+        CONFIGURATION.getScreen().type(Images.KEYPASSWORD, "vico2018");
+        CONFIGURATION.getScreen().click(Images.ALLOW);
+        CONFIGURATION.getScreen().type(Images.NEAGENT, "vico2018");
+        takeANap();
+        CONFIGURATION.getScreen().click(Images.ALLOW);
     }
 
     @Then("^I should successfully connect$")
