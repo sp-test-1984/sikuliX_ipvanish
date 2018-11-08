@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="sp.RunnerTest" time="0.016" errors="2" skipped="1">
+<testsuite tests="35" failures="0" name="sp.RunnerTest" time="85.999" errors="0" skipped="10">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="10.0.2+13"/>
@@ -65,45 +65,79 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="| ikev2 |" name="Given IPVanish is accessible" time="0.002"/>
+  <testcase classname="| ikev2 |" name="Given IPVanish is accessible" time="0.003"/>
   <testcase classname="| ikev2 |" name="And I am logged" time="0"/>
-  <testcase classname="| ikev2 |" name="When I select &quot;ikev2&quot;" time="0"/>
-  <testcase classname="| ikev2 |" name="And attempt connection" time="0.004">
-    <error message="src/test/resources/images/allow.png: (83x26) seen at (835, 332) with 0.97 in S(0)[0,0 1440x900] E:Y, T:3.0" type="FindFailed">FindFailed: src/test/resources/images/allow.png: (83x26) seen at (835, 332) with 0.97 in S(0)[0,0 1440x900] E:Y, T:3.0
-  Line 2761, in file Region.java
-
-	at org.sikuli.script.Region.wait(Region.java:2761)
-	at org.sikuli.script.Region.find(Region.java:2326)
-	at org.sikuli.script.Region.getLocationFromTarget(Region.java:3220)
-	at org.sikuli.script.Region.click(Region.java:3718)
-	at org.sikuli.script.Region.click(Region.java:3703)
-	at sp.StepDefinitions.attempt_connection(StepDefinitions.java:74)
-	at ✽.And attempt connection(features/quick_connect.feature:6)
-</error>
-    <system-out>[log] CLICK on L(197,310)@S(0)[0,0 1440x900] (595 msec)
-[log] CLICK on L(911,747)@S(0)[0,0 1440x900] (597 msec)
-[log] CLICK on L(747,314)@S(0)[0,0 1440x900] (599 msec)
-[log] CLICK on L(791,304)@S(0)[0,0 1440x900] (598 msec)
-[log]  TYPE &quot;vico2018&quot;
-[log] CLICK on L(876,345)@S(0)[0,0 1440x900] (597 msec)
-[log] CLICK on L(791,297)@S(0)[0,0 1440x900] (594 msec)
-[log]  TYPE &quot;vico2018&quot;
-</system-out>
-  </testcase>
-  <testcase classname="| ikev2 |" name="| ikev2 |" time="0.005">
-    <error message="src/test/resources/images/allow.png: (83x26) seen at (835, 332) with 0.97 in S(0)[0,0 1440x900] E:Y, T:3.0" type="FindFailed">FindFailed: src/test/resources/images/allow.png: (83x26) seen at (835, 332) with 0.97 in S(0)[0,0 1440x900] E:Y, T:3.0
-  Line 2761, in file Region.java
-
-	at org.sikuli.script.Region.wait(Region.java:2761)
-	at org.sikuli.script.Region.find(Region.java:2326)
-	at org.sikuli.script.Region.getLocationFromTarget(Region.java:3220)
-	at org.sikuli.script.Region.click(Region.java:3718)
-	at org.sikuli.script.Region.click(Region.java:3703)
-	at sp.StepDefinitions.attempt_connection(StepDefinitions.java:74)
-	at ✽.And attempt connection(features/quick_connect.feature:6)
-</error>
-  </testcase>
-  <testcase classname="| ikev2 |" name="Then I should successfully connect" time="0.005">
+  <testcase classname="| ikev2 |" name="When I select &quot;ikev2&quot;" time="0.001"/>
+  <testcase classname="| ikev2 |" name="And attempt connection" time="0"/>
+  <testcase classname="| ikev2 |" name="Then I should successfully connect" time="0.004">
     <skipped/>
   </testcase>
+  <testcase classname="| ikev2 |" name="| ikev2 |" time="8.642">
+    <skipped/>
+    <system-out>[log] CLICK on L(235,360)@S(0)[0,0 1440x900] (615 msec)
+[log] CLICK on L(996,608)@S(0)[0,0 1440x900] (611 msec)
+[log] CLICK on L(804,144)@S(0)[0,0 1440x900] (622 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| ikev2 |" name="| ikev2 |" time="8.642"/>
+  <testcase classname="| tcp |" name="Given IPVanish is accessible" time="0"/>
+  <testcase classname="| tcp |" name="And I am logged" time="0"/>
+  <testcase classname="| tcp |" name="When I select &quot;tcp&quot;" time="0"/>
+  <testcase classname="| tcp |" name="And attempt connection" time="0"/>
+  <testcase classname="| tcp |" name="Then I should successfully connect" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| tcp |" name="| tcp |" time="8.624">
+    <skipped/>
+    <system-out>[log] CLICK on L(235,360)@S(0)[0,0 1440x900] (627 msec)
+[log] CLICK on L(996,608)@S(0)[0,0 1440x900] (609 msec)
+[log] CLICK on L(804,144)@S(0)[0,0 1440x900] (609 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| tcp |" name="| tcp |" time="8.624"/>
+  <testcase classname="| ipsec |" name="Given IPVanish is accessible" time="0"/>
+  <testcase classname="| ipsec |" name="And I am logged" time="0"/>
+  <testcase classname="| ipsec |" name="When I select &quot;ipsec&quot;" time="0"/>
+  <testcase classname="| ipsec |" name="And attempt connection" time="0"/>
+  <testcase classname="| ipsec |" name="Then I should successfully connect" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| ipsec |" name="| ipsec |" time="8.569">
+    <skipped/>
+    <system-out>[log] CLICK on L(235,360)@S(0)[0,0 1440x900] (614 msec)
+[log] CLICK on L(996,608)@S(0)[0,0 1440x900] (607 msec)
+[log] CLICK on L(804,144)@S(0)[0,0 1440x900] (612 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| ipsec |" name="| ipsec |" time="8.569"/>
+  <testcase classname="| l2tp |" name="Given IPVanish is accessible" time="0"/>
+  <testcase classname="| l2tp |" name="And I am logged" time="0"/>
+  <testcase classname="| l2tp |" name="When I select &quot;l2tp&quot;" time="0.001"/>
+  <testcase classname="| l2tp |" name="And attempt connection" time="0"/>
+  <testcase classname="| l2tp |" name="Then I should successfully connect" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| l2tp |" name="| l2tp |" time="8.593">
+    <skipped/>
+    <system-out>[log] CLICK on L(235,360)@S(0)[0,0 1440x900] (622 msec)
+[log] CLICK on L(996,608)@S(0)[0,0 1440x900] (610 msec)
+[log] CLICK on L(804,144)@S(0)[0,0 1440x900] (607 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| l2tp |" name="| l2tp |" time="8.594"/>
+  <testcase classname="| udp |" name="Given IPVanish is accessible" time="0"/>
+  <testcase classname="| udp |" name="And I am logged" time="0"/>
+  <testcase classname="| udp |" name="When I select &quot;udp&quot;" time="0"/>
+  <testcase classname="| udp |" name="And attempt connection" time="0"/>
+  <testcase classname="| udp |" name="Then I should successfully connect" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| udp |" name="| udp |" time="8.564">
+    <skipped/>
+    <system-out>[log] CLICK on L(235,360)@S(0)[0,0 1440x900] (621 msec)
+[log] CLICK on L(996,608)@S(0)[0,0 1440x900] (615 msec)
+[log] CLICK on L(804,144)@S(0)[0,0 1440x900] (610 msec)
+</system-out>
+  </testcase>
+  <testcase classname="| udp |" name="| udp |" time="8.564"/>
 </testsuite>

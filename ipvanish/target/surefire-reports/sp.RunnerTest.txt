@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: sp.RunnerTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 40.35 sec <<< FAILURE!
-And attempt connection(| ikev2 |)  Time elapsed: 0.004 sec  <<< ERROR!
-FindFailed: src/test/resources/images/allow.png: (83x26) seen at (835, 332) with 0.97 in S(0)[0,0 1440x900] E:Y, T:3.0
-  Line 2761, in file Region.java
-
-	at org.sikuli.script.Region.wait(Region.java:2761)
-	at org.sikuli.script.Region.find(Region.java:2326)
-	at org.sikuli.script.Region.getLocationFromTarget(Region.java:3220)
-	at org.sikuli.script.Region.click(Region.java:3718)
-	at org.sikuli.script.Region.click(Region.java:3703)
-	at sp.StepDefinitions.attempt_connection(StepDefinitions.java:74)
-	at ✽.And attempt connection(features/quick_connect.feature:6)
-
-| ikev2 |  Time elapsed: 0.005 sec  <<< ERROR!
-FindFailed: src/test/resources/images/allow.png: (83x26) seen at (835, 332) with 0.97 in S(0)[0,0 1440x900] E:Y, T:3.0
-  Line 2761, in file Region.java
-
-	at org.sikuli.script.Region.wait(Region.java:2761)
-	at org.sikuli.script.Region.find(Region.java:2326)
-	at org.sikuli.script.Region.getLocationFromTarget(Region.java:3220)
-	at org.sikuli.script.Region.click(Region.java:3718)
-	at org.sikuli.script.Region.click(Region.java:3703)
-	at sp.StepDefinitions.attempt_connection(StepDefinitions.java:74)
-	at ✽.And attempt connection(features/quick_connect.feature:6)
-
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 10, Time elapsed: 199.432 sec

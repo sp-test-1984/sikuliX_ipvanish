@@ -36,42 +36,52 @@ public class StepDefinitions {
     @When("^I select \"([^\"]*)\"$")
     public void i_select(String protocol) throws Throwable {
         // open preferences
-        CONFIGURATION.getScreen().type(",", Key.META);
-        takeANap();
-        CONFIGURATION.getScreen().click(Images.PROTOCOL_SELECTOR);
-        takeANap();
+        if(protocol.equals("udp")){
+            takeANap();
+        } else {
+            CONFIGURATION.getScreen().type(",", Key.META);
+            takeANap();
+            CONFIGURATION.getScreen().click(Images.PROTOCOL_SELECTOR);
+            takeANap();
 
-        switch (protocol.toLowerCase()){
-            case "ikev2":
-                CONFIGURATION.getScreen().click(Images.IKEV2);
-                break;
-            case "ipsec":
-                CONFIGURATION.getScreen().click(Images.IPSEC);
-                break;
-            case "l2tp":
-                CONFIGURATION.getScreen().click(Images.L2TP);
-                break;
-            case "tcp":
-                CONFIGURATION.getScreen().click(Images.OPEN_TCP);
-                break;
-            case "udp":
-
-                break;
-
+            switch (protocol.toLowerCase()){
+                case "ikev2":
+                    CONFIGURATION.getScreen().click(Images.IKEV2);
+                    break;
+                case "ipsec":
+                    CONFIGURATION.getScreen().click(Images.IPSEC);
+                    break;
+                case "l2tp":
+                    CONFIGURATION.getScreen().click(Images.L2TP);
+                    break;
+                case "tcp":
+                    CONFIGURATION.getScreen().click(Images.OPEN_TCP);
+                    break;
+            }
         }
+
     }
 
     @When("^attempt connection$")
-    public void attempt_connection() throws Throwable {
-        CONFIGURATION.getScreen().click(Images.QUICKCONNECT);
-        CONFIGURATION.getScreen().click(Images.CONNECT);
-        takeANap();
-        CONFIGURATION.getScreen().click(Images.ALLOW);
-        CONFIGURATION.getScreen().type(Images.KEYPASSWORD, "vico2018");
-        CONFIGURATION.getScreen().click(Images.ALLOW);
-        CONFIGURATION.getScreen().type(Images.NEAGENT, "vico2018");
-        takeANap();
-        CONFIGURATION.getScreen().click(Images.ALLOW);
+    public void attempt_connection() {
+        try {
+            CONFIGURATION.getScreen().click(Images.QUICKCONNECT);
+            takeANap();
+            CONFIGURATION.getScreen().click(Images.CONNECT);
+            takeANap();
+            CONFIGURATION.getScreen().click(Images.ALLOW);
+            CONFIGURATION.getScreen().type(Images.KEYPASSWORD, "vico2018");
+            //CONFIGURATION.getScreen().click(Images.ALLOW);
+            //CONFIGURATION.getScreen().type(Images.NEAGENT, "vico2018");
+
+            allMatches(Images.ALWAYSALLOW);
+            CONFIGURATION.getScreen().hover(Images.ALWAYSALLOW);
+            CONFIGURATION.getScreen().click(Images.ALWAYSALLOW);
+            takeANap();
+            //CONFIGURATION.getScreen().click(Images.ALWAYSALLOW);
+        } catch (FindFailed findFailed) {
+
+        }
     }
 
     @Then("^I should successfully connect$")
@@ -94,6 +104,7 @@ public class StepDefinitions {
             CONFIGURATION.getScreen().click(Images.ACCOUNT);
             CONFIGURATION.getScreen().click(Images.LOGOUTBUTTON);
             CONFIGURATION.getScreen().click(Images.CONFIRM);
+            takeANap();
         } catch (FindFailed findFailed) {
             findFailed.printStackTrace();
         }
