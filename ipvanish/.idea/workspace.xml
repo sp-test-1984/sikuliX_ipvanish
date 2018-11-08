@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f61593-f1e5-4da5-ab1a-a65718912a97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sp/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sp/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sp/util/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sp/util/Images.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/quick_connect.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/quick_connect.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/images/allow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/images/allow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/images/keychain_pswrd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-sp.RunnerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-sp.RunnerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/sp.RunnerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/sp.RunnerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/quick_connect.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/quick_connect.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/images/allow.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/images/allow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/images/keychain_pswrd.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/images/keychain_pswrd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/images/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/images/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sp/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sp/StepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sp/util/Images.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sp/util/Images.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sp/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
@@ -130,11 +117,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/quick_connect.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -163,8 +150,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/test/java/sp/util/Configuration.java" />
         <option value="$PROJECT_DIR$/src/test/java/sp/util/Images.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/quick_connect.feature" />
         <option value="$PROJECT_DIR$/src/test/java/sp/StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/quick_connect.feature" />
       </list>
     </option>
   </component>
@@ -310,7 +297,7 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +311,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -431,13 +418,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/images/tcp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/quick_connect.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sp/StepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -445,6 +425,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/quick_connect.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
