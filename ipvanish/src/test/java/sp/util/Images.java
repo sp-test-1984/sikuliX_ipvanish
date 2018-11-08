@@ -5,7 +5,7 @@ public class Images {
     public static final String IKEV2 = "src/test/resources/images/ikev2.png";
     public static final String IPSEC = "src/test/resources/images/ipsec.png";
     public static final String L2TP = "src/test/resources/images/l2tp.png";
-    public static final String TCP = "src/test/resources/images/tcp.png";
+    public static final String TEST = "src/test/resources/images/test.png";
     public static final String OPEN_TCP = "src/test/resources/images/open_tcp.png";
     public static final String IPVMENU = "src/test/resources/images/ipvanish_menu.png";
     public static final String QUIT = "src/test/resources/images/quit.png";

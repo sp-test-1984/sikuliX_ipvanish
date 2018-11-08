@@ -63,8 +63,9 @@ public class StepDefinitions {
 
     @When("^attempt connection$")
     public void attempt_connection() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        CONFIGURATION.getScreen().click(Images.QUICKCONNECT);
+        CONFIGURATION.getScreen().click(Images.CONNECT);
+        takeANap();
     }
 
     @Then("^I should successfully connect$")
@@ -75,7 +76,7 @@ public class StepDefinitions {
 
     private void takeANap() {
         try{
-            Thread.sleep(2000);
+            Thread.sleep(4000);
         }  catch (InterruptedException e){
             e.printStackTrace();
         }

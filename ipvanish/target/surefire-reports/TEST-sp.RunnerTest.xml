@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="35" failures="0" name="sp.RunnerTest" time="35.986" errors="0" skipped="15">
+<testsuite tests="7" failures="0" name="sp.RunnerTest" time="7.55" errors="0" skipped="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="10.0.2+13"/>
@@ -65,89 +65,19 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="| ikev2 |" name="Given IPVanish is accessible" time="0.002"/>
-  <testcase classname="| ikev2 |" name="And I am logged" time="0"/>
-  <testcase classname="| ikev2 |" name="When I select &quot;ikev2&quot;" time="0"/>
-  <testcase classname="| ikev2 |" name="And attempt connection" time="0.004">
-    <skipped/>
-  </testcase>
-  <testcase classname="| ikev2 |" name="Then I should successfully connect" time="0.004">
-    <skipped/>
-  </testcase>
-  <testcase classname="| ikev2 |" name="| ikev2 |" time="3.548">
-    <skipped/>
-    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (597 msec)
-[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (610 msec)
-[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (598 msec)
-</system-out>
-  </testcase>
-  <testcase classname="| ikev2 |" name="| ikev2 |" time="3.548"/>
-  <testcase classname="| tcp |" name="Given IPVanish is accessible" time="0"/>
-  <testcase classname="| tcp |" name="And I am logged" time="0"/>
-  <testcase classname="| tcp |" name="When I select &quot;tcp&quot;" time="0"/>
-  <testcase classname="| tcp |" name="And attempt connection" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| tcp |" name="Then I should successfully connect" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| tcp |" name="| tcp |" time="3.503">
-    <skipped/>
-    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (598 msec)
-[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (598 msec)
-[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (600 msec)
-</system-out>
-  </testcase>
-  <testcase classname="| tcp |" name="| tcp |" time="3.503"/>
-  <testcase classname="| ipsec |" name="Given IPVanish is accessible" time="0"/>
-  <testcase classname="| ipsec |" name="And I am logged" time="0"/>
-  <testcase classname="| ipsec |" name="When I select &quot;ipsec&quot;" time="0"/>
-  <testcase classname="| ipsec |" name="And attempt connection" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="| ipsec |" name="Then I should successfully connect" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| ipsec |" name="| ipsec |" time="3.94">
-    <skipped/>
-    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (594 msec)
-[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (594 msec)
-[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (590 msec)
-</system-out>
-  </testcase>
-  <testcase classname="| ipsec |" name="| ipsec |" time="3.94"/>
-  <testcase classname="| l2tp |" name="Given IPVanish is accessible" time="0"/>
+  <testcase classname="| l2tp |" name="Given IPVanish is accessible" time="0.002"/>
   <testcase classname="| l2tp |" name="And I am logged" time="0"/>
   <testcase classname="| l2tp |" name="When I select &quot;l2tp&quot;" time="0"/>
-  <testcase classname="| l2tp |" name="And attempt connection" time="0.001">
+  <testcase classname="| l2tp |" name="And attempt connection" time="0"/>
+  <testcase classname="| l2tp |" name="Then I should successfully connect" time="0.004">
     <skipped/>
   </testcase>
-  <testcase classname="| l2tp |" name="Then I should successfully connect" time="0.001">
+  <testcase classname="| l2tp |" name="| l2tp |" time="3.772">
     <skipped/>
-  </testcase>
-  <testcase classname="| l2tp |" name="| l2tp |" time="3.493">
-    <skipped/>
-    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (594 msec)
-[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (606 msec)
-[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (598 msec)
+    <system-out>[log] CLICK on L(197,476)@S(0)[0,0 1440x900] (589 msec)
+[log] CLICK on L(958,724)@S(0)[0,0 1440x900] (593 msec)
+[log] CLICK on L(766,260)@S(0)[0,0 1440x900] (601 msec)
 </system-out>
   </testcase>
-  <testcase classname="| l2tp |" name="| l2tp |" time="3.493"/>
-  <testcase classname="| udp |" name="Given IPVanish is accessible" time="0"/>
-  <testcase classname="| udp |" name="And I am logged" time="0"/>
-  <testcase classname="| udp |" name="When I select &quot;udp&quot;" time="0"/>
-  <testcase classname="| udp |" name="And attempt connection" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="| udp |" name="Then I should successfully connect" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="| udp |" name="| udp |" time="3.5">
-    <skipped/>
-    <system-out>[log] CLICK on L(253,540)@S(0)[0,0 1920x1080] (596 msec)
-[log] CLICK on L(1014,788)@S(0)[0,0 1920x1080] (593 msec)
-[log] CLICK on L(822,324)@S(0)[0,0 1920x1080] (592 msec)
-</system-out>
-  </testcase>
-  <testcase classname="| udp |" name="| udp |" time="3.5"/>
+  <testcase classname="| l2tp |" name="| l2tp |" time="3.772"/>
 </testsuite>
